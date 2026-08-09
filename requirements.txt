@@ -10,3 +10,4 @@ uvicorn
 streamlit
 requests
 joblib
+huggingface_hub

@@ -11,10 +11,9 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.streamlit
     container_name: recommendation-app
     ports:
       - "8501:8501"
-    command: streamlit run app/app.py --server.address=0.0.0.0
     depends_on:
       - api

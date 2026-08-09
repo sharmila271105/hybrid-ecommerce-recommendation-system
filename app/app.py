@@ -28,7 +28,12 @@ import streamlit as st
 # (Render/AWS/etc.), change this one line — nothing else in the file needs
 # to change.
 # --------------------------------------------------------------------- #
-API_URL = "http://127.0.0.1:8000"
+import os
+
+API_URL = os.getenv(
+    "API_URL",
+    "http://127.0.0.1:8000"
+)
 REQUEST_TIMEOUT = 8  # seconds
 
 

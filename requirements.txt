@@ -4,7 +4,6 @@ scikit-learn==1.6.1
 scipy
 matplotlib
 seaborn
-implicit
 fastapi
 uvicorn
 streamlit

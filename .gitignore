@@ -1,1 +1,23 @@
+# Python
+__pycache__/
+*.pyc
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+kaggle.json
+.env
+
+# Raw datasets
+articles.csv
+customers.csv
+transactions_train.csv
+
+# Large data files
+*.parquet
+*.npz
+*.pkl
+
+# OS
+.DS_Store

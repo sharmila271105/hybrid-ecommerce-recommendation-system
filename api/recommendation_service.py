@@ -14,7 +14,9 @@ import numpy as np
 import pandas as pd
 from scipy.sparse import load_npz
 from sklearn.metrics.pairwise import cosine_similarity
+from huggingface_hub import hf_hub_download
 
+HF_REPO_ID = "Sharmila271105/ecommerce-recommendation-artifacts"
 
 class RecommendationService:
 
